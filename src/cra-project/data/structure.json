@@ -4,8 +4,8 @@
       "id": "ketua",
       "role": "Ketua Umum",
       "name": "Sulastian",
-      "nickname": "The Commander",
-      "image": "/pengurus/topman/Sulastian.webp",
+      "nickname": "tian",
+      "image": "/pengurus/topman/sulastian.webp",
       "stats": {
         "lead": 95,
         "tech": 85,
@@ -17,8 +17,8 @@
       "id": "wakil",
       "role": "Wakil Ketua",
       "name": "Gita Aulia",
-      "nickname": "The Strategist",
-      "image": "/pengurus/topman/Gita.webp",
+      "nickname": "gita",
+      "image": "/pengurus/topman/gita.webp",
       "stats": {
         "lead": 90,
         "tech": 88,
@@ -29,9 +29,9 @@
     {
       "id": "sekre1",
       "role": "Sekretaris 1",
-      "name": "Nama Sekre 1",
-      "nickname": "The Scribe",
-      "image": "/pengurus/topman/ahmad.webp",
+      "name": "Ansuya Henna",
+      "nickname": "Ansuy",
+      "image": "/pengurus/topman/ansuya.webp",
       "stats": {
         "admin": 95,
         "speed": 85,
@@ -42,8 +42,8 @@
     {
       "id": "sekre2",
       "role": "Sekretaris 2",
-      "name": "Nama Sekre 2",
-      "nickname": "The Archivist",
+      "name": "Alinda",
+      "nickname": "Alinda",
       "image": "/pengurus/topman/ahmad.webp",
       "stats": {
         "admin": 90,
@@ -55,8 +55,8 @@
     {
       "id": "bendahara1",
       "role": "Bendahara 1",
-      "name": "Nama Bendahara 1",
-      "nickname": "The Treasurer",
+      "name": "Romlah Hanafiah",
+      "nickname": "Romlah",
       "image": "/pengurus/topman/ahmad.webp",
       "stats": {
         "finance": 98,
@@ -68,8 +68,8 @@
     {
       "id": "bendahara2",
       "role": "Bendahara 2",
-      "name": "Nama Bendahara 2",
-      "nickname": "The Banker",
+      "name": "Nunuy Khasanah",
+      "nickname": "Nunuy",
       "image": "/pengurus/topman/ahmad.webp",
       "stats": {
         "finance": 92,
@@ -88,9 +88,9 @@
       "members": [
         {
           "id": "hum1",
-          "name": "orang",
-          "role": "Kadiv Internal",
-          "image": "/pengurus/humaniora/eksternal/ahmad.webp",
+          "name": "Tubagus Budi",
+          "role": "Kepala Divisi Humaniora Internal",
+          "image": "/pengurus/humaniora/internal/tubagus.webp",
           "stats": {
             "comms": 90,
             "rel": 85
@@ -98,8 +98,8 @@
         },
         {
           "id": "hum2",
-          "name": "orang ",
-          "role": "Kadiv Eksternal",
+          "name": "Ahmad Kurnia ",
+          "role": "Kepala Divisi Humaniora Eksternal",
           "image": "/pengurus/humaniora/internal/ahmad.webp",
           "stats": {
             "comms": 80,
@@ -116,9 +116,19 @@
       "members": [
         {
           "id": "kom1",
-          "name": "orang",
-          "role": "Kadiv Kominfo",
-          "image": "/pengurus/kominfo/ahmad.webp",
+          "name": "M Farhad Ajilla",
+          "role": "Kepala Divisi Kominfo",
+          "image": "/pengurus/kominfo/ajil.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+        {
+          "id": "kom2",
+          "name": "M Raffi",
+          "role": "Staff Divisi Kominfo",
+          "image": "/pengurus/kominfo/raffi.webp",
           "stats": {
             "comms": 90,
             "rel": 85
@@ -134,14 +144,45 @@
       "members": [
         {
           "id": "kewirus1",
-          "name": "orang",
-          "role": "Kadiv Kewirus",
-          "image": "/pengurus/kewirus/ahmad.webp",
+          "name": "Faqih",
+          "role": "Kepala Divisi Kewirus",
+          "image": "/pengurus/kewirus/faqih.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+        {
+          "id": "kewirus2",
+          "name": "Ria",
+          "role": "Staff Kewirausahaan",
+          "image": "/pengurus/kewirus/faqih.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+        {
+          "id": "kewirus3",
+          "name": "Fahridzal",
+          "role": "Staff Kewirausahaan",
+          "image": "/pengurus/kewirus/faqih.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+         {
+          "id": "kewirus4",
+          "name": "Rifaldy",
+          "role": "Staff Kewirausahaan",
+          "image": "/pengurus/kewirus/faqih.webp",
           "stats": {
             "comms": 90,
             "rel": 85
           }
         }
+
       ]
     },
     {
@@ -152,15 +193,26 @@
       "isTech": true,
       "members": [
         {
-          "id": "sotf",
-          "name": "orang",
-          "role": "Kadiv software",
+          "id": "sotf1",
+          "name": "Andrian",
+          "role": "Kepala Divisi software",
+          "image": "/pengurus/sotfware/ahmad.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+         {
+          "id": "sotf2",
+          "name": "M Ghani",
+          "role": "Kepala Divisi software",
           "image": "/pengurus/sotfware/ahmad.webp",
           "stats": {
             "comms": 90,
             "rel": 85
           }
         }
+
       ]
     },
     {
@@ -172,14 +224,44 @@
       "members": [
         {
           "id": "hard1",
-          "name": "orang",
-          "role": "Kadiv Hardware",
-          "image": "/pengurus/hardware/ahmad.webp",
+          "name": "Aditya Nurwansyah",
+          "role": "Kepala Divisi Hardware",
+          "image": "/pengurus/hardware/adit.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        }, {
+          "id": "hard2",
+          "name": "Yan Hadis",
+          "role": "Staff Hardware",
+          "image": "/pengurus/hardware/yan.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+        {
+          "id": "hard3",
+          "name": "Alvin",
+          "role": "Staff Hardware",
+          "image": "/pengurus/hardware/yan.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+        {
+          "id": "hard4",
+          "name": "Salsa Nur Maulani",
+          "role": "Staff Hardware",
+          "image": "/pengurus/hardware/yan.webp",
           "stats": {
             "comms": 90,
             "rel": 85
           }
         }
+        
       ]
     },
     {
@@ -191,8 +273,48 @@
       "members": [
         {
           "id": "game1",
-          "name": "orang",
-          "role": "Kadiv Game",
+          "name": "Aldi Alfariz",
+          "role": "Kepala Divisi Game",
+          "image": "/pengurus/game/ahmad.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+              {
+          "id": "game2",
+          "name": "Winata Hadi",
+          "role": "Staff Divisi Game",
+          "image": "/pengurus/game/ahmad.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+        {
+          "id": "game3",
+          "name": "Ahmad Agung",
+          "role": "Staff Divisi Game",
+          "image": "/pengurus/game/ahmad.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        }, 
+        {
+          "id": "game4",
+          "name": "Firman",
+          "role": "Staff Divisi Game",
+          "image": "/pengurus/game/ahmad.webp",
+          "stats": {
+            "comms": 90,
+            "rel": 85
+          }
+        },
+        {
+          "id": "game5",
+          "name": "Nauval Avrizal",
+          "role": "Staff Divisi Game",
           "image": "/pengurus/game/ahmad.webp",
           "stats": {
             "comms": 90,

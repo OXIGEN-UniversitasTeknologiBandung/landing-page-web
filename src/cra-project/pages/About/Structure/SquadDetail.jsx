@@ -41,6 +41,7 @@ const SquadDetail = () => {
         </div>
 
         {/* Member Grid */}
+       
         {division.members && division.members.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {division.members.map((member) => (

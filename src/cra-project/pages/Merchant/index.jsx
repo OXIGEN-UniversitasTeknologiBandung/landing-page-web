@@ -13,7 +13,6 @@ const Merchant = () => {
   const categories = [
     { name: 'All', icon: <ShoppingBag size={18} /> },
     { name: 'Apparel', icon: <Shirt size={18} /> },
-    { name: 'Food', icon: <Coffee size={18} /> },
     { name: 'Accessories', icon: <Package size={18} /> },
   ];
 

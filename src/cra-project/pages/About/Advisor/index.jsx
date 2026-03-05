@@ -15,7 +15,7 @@ const Advisor = () => {
           <div className="relative shrink-0 w-64 h-64 md:w-80 md:h-80">
             <div className="absolute inset-0 bg-gradient-to-tr from-oxigen-light to-software-tosca rounded-full blur-3xl opacity-20"></div>
             <img 
-              src="/pembina.png" 
+              src="/pembina.webp" 
               alt="Pembina UKM Oxigen" 
               className="relative z-10 w-full h-full object-contain drop-shadow-xl hover:scale-105 transition-transform duration-500"
             />

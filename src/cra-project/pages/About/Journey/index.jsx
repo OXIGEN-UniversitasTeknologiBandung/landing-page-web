@@ -12,7 +12,7 @@ const Journey = () => {
           {/* Text Content */}
           <div className="space-y-6">
             <div className="inline-block px-4 py-1 bg-white/10 rounded-full border border-white/20 backdrop-blur-md">
-              <span className="text-software-bright text-xs font-bold uppercase tracking-widest">Since 20xx</span>
+              <span className="text-software-bright text-xs font-bold uppercase tracking-widest">Since 2017</span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
@@ -41,7 +41,7 @@ const Journey = () => {
             
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
               <img 
-                src="/gallery/poto3.JPG" 
+                src="/gallery/poto3.webp" 
                 alt="Foto Bersama Anggota OXIGEN" 
                 className="w-full h-full object-cover transform transition duration-700 group-hover:scale-105"
               />
@@ -51,7 +51,7 @@ const Journey = () => {
               
               <div className="absolute bottom-6 left-6">
                 <p className="text-white font-bold text-lg">The First Gen</p>
-                <p className="text-gray-300 text-sm">Bandung, 20xx</p>
+                <p className="text-gray-300 text-sm">Bandung, 2017</p>
               </div>
             </div>
           </div>

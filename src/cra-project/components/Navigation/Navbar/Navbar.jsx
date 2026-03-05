@@ -95,7 +95,7 @@ const Navbar = () => {
           </div>
 
           {/* LOGIN BUTTON (DESKTOP) */}
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <Link
               to="/"
               className={`px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105 shadow-lg
@@ -107,7 +107,7 @@ const Navbar = () => {
             >
               Login
             </Link>
-          </div>
+          </div> */}
 
           {/* MOBILE HAMBURGER BUTTON */}
           <div className="-mr-2 flex md:hidden">

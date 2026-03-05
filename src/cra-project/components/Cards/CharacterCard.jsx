@@ -14,7 +14,7 @@ const CharacterCard = ({ member }) => {
           <img 
             src={member.image || 'https://via.placeholder.com/400x500?text=No+Image'} 
             alt={member.name} 
-            className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110" 
+            className="w-fit h-fit object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110" 
           />
           
           {/* Role Badge */}
