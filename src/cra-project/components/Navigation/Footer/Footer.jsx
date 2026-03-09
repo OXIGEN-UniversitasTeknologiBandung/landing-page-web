@@ -76,7 +76,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6">Contact Us</h3>
             <ul className="space-y-4 text-sm text-gray-200">
               <li className="flex items-start gap-3">
-                 <span>oxigen.sttb1@gmail.com</span>
+                 <span>oxigenutb@utb-univ.ac.id</span>
               </li>
               <li className="flex items-start gap-3">
                  <a href="https://oxigen-sttbandung.web.app" target="_blank" rel="noreferrer" className="hover:text-white underline break-all">

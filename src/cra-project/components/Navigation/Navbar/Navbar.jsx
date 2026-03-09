@@ -50,28 +50,37 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
+  // Halaman yang memiliki header biru gelap (harus navbar selalu solid)
+  const isSolidPage =
+    location.pathname.startsWith('/showcase') ||
+    location.pathname.startsWith('/projects');
+
   // Handle Scroll Effect
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 20);
     };
+
+    // Set initial state on mount / route change
+    handleScroll();
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [location.pathname]);
+
+  // Tentukan style navbar:
+  // - isSolidPage ATAU sudah di-scroll → bg solid oxigen-dark
+  // - Selain itu → transparan
+  const navBg =
+    isSolidPage || isScrolled
+      ? 'bg-oxigen-dark/95 backdrop-blur-md shadow-lg border-white/10'
+      : 'bg-transparent border-transparent';
+
+  const navPadding = isScrolled ? 'py-3' : 'py-5';
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ease-in-out border-b border-transparent
-        ${isScrolled
-          ? 'bg-oxigen-dark/90 backdrop-blur-md shadow-lg py-3 border-white/10'
-          : 'bg-transparent py-5'
-        }
-      `}
+      className={`fixed w-full z-50 transition-all duration-300 ease-in-out border-b ${navBg} ${navPadding}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-12">
@@ -91,6 +100,7 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
               <NavLink to="/about">About</NavLink>
               <NavLink to="/merchant">Merchant</NavLink>
+              <NavLink to="/showcase">Showcase</NavLink>
             </div>
           </div>
 
