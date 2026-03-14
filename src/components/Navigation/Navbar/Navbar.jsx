@@ -99,7 +99,7 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/about">About</NavLink>
-              {/* <NavLink to="/merchant">Merchant</NavLink> */}
+              <NavLink to="/merchant">Merchant</NavLink>
               <NavLink to="/showcase">Showcase</NavLink>
             </div>
           </div>
@@ -146,7 +146,7 @@ const Navbar = () => {
           <MobileNavLink to="/" onClick={() => setIsOpen(false)}>Home</MobileNavLink>
           <MobileNavLink to="/about" onClick={() => setIsOpen(false)}>About</MobileNavLink>
           <MobileNavLink to="/showcase" onClick={() => setIsOpen(false)}>Showcase</MobileNavLink>
-          {/* <MobileNavLink to="/merchant" onClick={() => setIsOpen(false)}>Merchant</MobileNavLink> */}
+          <MobileNavLink to="/merchant" onClick={() => setIsOpen(false)}>Merchant</MobileNavLink>
 
           <div className="pt-4 mt-4 border-t border-white/10">
             <Link

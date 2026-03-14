@@ -29,7 +29,7 @@
     {
       "id": "sekre1",
       "role": "Sekretaris 1",
-      "name": "Ansuya Henna",
+      "name": "Anisa Ansuya Henna",
       "nickname": "Ansuy",
       "image": "/pengurus/avatar.webp",
       "stats": {
@@ -89,6 +89,7 @@
         {
           "id": "hum1",
           "name": "Tubagus Budi",
+          "nickname": "seseorang",
           "role": "Kepala Divisi Humaniora Internal",
           "image": "/pengurus/humaniora/internal/tubagus.webp",
           "stats": {
@@ -99,6 +100,7 @@
         {
           "id": "hum2",
           "name": "Ahmad Kurnia ",
+          "nickname": "seseorang",
           "role": "Kepala Divisi Humaniora Eksternal",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -117,6 +119,7 @@
         {
           "id": "kom1",
           "name": "M Farhad Ajilla",
+          "nickname": "seseorang",
           "role": "Kepala Divisi Kominfo",
           "image": "/pengurus/kominfo/ajil.webp",
           "stats": {
@@ -127,6 +130,7 @@
         {
           "id": "kom2",
           "name": "M Raffi",
+          "nickname": "seseorang",
           "role": "Staff Divisi Kominfo",
           "image": "/pengurus/kominfo/raffi.webp",
           "stats": {
@@ -137,6 +141,7 @@
         {
           "id": "kom3",
           "name": "Fahridzal",
+          "nickname": "seseorang",
           "role": "Staff Divisi Kominfo",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -147,6 +152,7 @@
         {
           "id": "kom4",
           "name": "Rifaldy",
+          "nickname": "seseorang",
           "role": "Staff Divisi Kominfo",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -165,6 +171,7 @@
         {
           "id": "kewirus1",
           "name": "Faqih",
+          "nickname": "seseorang",
           "role": "Kepala Divisi Kewirus",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -175,6 +182,7 @@
         {
           "id": "kewirus2",
           "name": "Ria",
+          "nickname": "seseorang",
           "role": "Staff Kewirausahaan",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -193,17 +201,20 @@
       "members": [
         {
           "id": "sotf1",
-          "name": "Andrian",
+          "name": "Andrian Maulana Dzikwan",
+          "nickname": "Purwa",
           "role": "Kepala Divisi software",
           "image": "/pengurus/avatar.webp",
           "stats": {
-            "comms": 90,
-            "rel": 85
+            "Baik hati": 90,
+            "Gapapa": 90,
+            "Penyabar" : 95
           }
         },
          {
           "id": "sotf2",
           "name": "M Ghani",
+          "nickname": "seseorang",
           "role": "Kepala Divisi software",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -214,6 +225,7 @@
          {
           "id": "sotf3",
           "name": "Fahridzal",
+          "nickname": "seseorang",
           "role": "Staff Divisi software",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -234,6 +246,7 @@
         {
           "id": "hard1",
           "name": "Aditya Nurwansyah",
+          "nickname": "seseorang",
           "role": "Kepala Divisi Hardware",
           "image": "/pengurus/hardware/adit.webp",
           "stats": {
@@ -243,6 +256,7 @@
         }, {
           "id": "hard2",
           "name": "Yan Hadis",
+          "nickname": "seseorang",
           "role": "Staff Hardware",
           "image": "/pengurus/hardware/yan.webp",
           "stats": {
@@ -253,6 +267,7 @@
         {
           "id": "hard3",
           "name": "Alvin",
+          "nickname": "seseorang",
           "role": "Staff Hardware",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -263,6 +278,7 @@
         {
           "id": "hard4",
           "name": "Salsa Nur Maulani",
+          "nickname": "seseorang",
           "role": "Staff Hardware",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -283,6 +299,7 @@
         {
           "id": "game1",
           "name": "Aldi Alfariz",
+          "nickname": "seseorang",
           "role": "Kepala Divisi Game",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -293,6 +310,7 @@
               {
           "id": "game2",
           "name": "Winata Hadi",
+          "nickname": "seseorang",
           "role": "Staff Divisi Game",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -303,6 +321,7 @@
         {
           "id": "game3",
           "name": "Ahmad Agung",
+          "nickname": "seseorang",
           "role": "Staff Divisi Game",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -313,6 +332,7 @@
         {
           "id": "game4",
           "name": "Firman",
+          "nickname": "seseorang",
           "role": "Staff Divisi Game",
           "image": "/pengurus/avatar.webp",
           "stats": {
@@ -323,6 +343,7 @@
         {
           "id": "game5",
           "name": "Nauval Avrizal",
+          "nickname": "seseorang",
           "role": "Staff Divisi Game",
           "image": "/pengurus/avatar.webp",
           "stats": {
