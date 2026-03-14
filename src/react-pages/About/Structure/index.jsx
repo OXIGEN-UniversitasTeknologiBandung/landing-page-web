@@ -61,7 +61,7 @@ const Structure = () => {
             {divisions.map((div) => (
               <Link 
                 key={div.id}
-                to={`/about/squad/${div.id}`}
+                to={`/about/squad/${div.id}#squadDetail`}
                 className={`group relative bg-white/5 border-l-4 ${div.color} p-6 rounded-r-xl hover:bg-white/10 transition-all hover:translate-x-2`}
               >
                 <div className="flex justify-between items-start">

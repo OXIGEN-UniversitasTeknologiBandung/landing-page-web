@@ -9,7 +9,7 @@ export default function ProjectDetail() {
         return (
             <div className="min-h-screen pt-32 text-center text-gray-800 flex flex-col items-center justify-center">
                 <h1 className="text-3xl font-bold mb-4">Project Not Found</h1>
-                <Link to="/" className="px-6 py-2 bg-oxigen-dark text-white rounded-full hover:bg-oxigen-light transition-colors">Back to Home</Link>
+                <Link to="/showcase/#divisions" className="px-6 py-2 bg-oxigen-dark text-white rounded-full hover:bg-oxigen-light transition-colors">Back to Home</Link>
             </div>
         );
     }
@@ -24,9 +24,9 @@ export default function ProjectDetail() {
                 <div className="container mx-auto max-w-5xl relative z-10 text-center md:text-left">
                     {/* Breadcrumbs / Back */}
                     <div className="flex items-center gap-2 mb-8 text-sm font-semibold uppercase tracking-wider text-gray-400">
-                        <Link to="/" className="hover:text-white transition-colors">Home</Link>
+                        <Link to="/showcase" className="hover:text-white transition-colors">Home</Link>
                         <span>/</span>
-                        <Link to={`/projects/${project.division.toLowerCase()}`} className="hover:text-white transition-colors">{project.division}</Link>
+                        <Link to={`/showcase/projects/${project.division.toLowerCase()}`} className="hover:text-white transition-colors">{project.division}</Link>
                         <span>/</span>
                         <span className="text-oxigen-light">{project.title}</span>
                     </div>

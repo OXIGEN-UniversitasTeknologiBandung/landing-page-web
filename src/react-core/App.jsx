@@ -7,7 +7,7 @@ import GalleryPage from '../react-pages/Home/Gallery';
 import About from '../react-pages/About';
 import SquadDetail from '../react-pages/About/Structure/SquadDetail';
 import Merchant from '../react-pages/Merchant';
-import Showcase from '../react-pages/Showcase/Showcase';
+import LearningPath from '../react-pages/Showcase/';
 import DivisionProjectList from '../react-pages/Showcase/DivisionProjectList';
 import ProjectDetail from '../react-pages/Showcase/ProjectDetail';
 
@@ -23,10 +23,10 @@ function App() {
           <Route path='/home/gallery' element={<GalleryPage />} />
           <Route path='/about' element={<About />} />
           <Route path="/about/squad/:divisionId" element={<SquadDetail />} />
-          {/* <Route path='/merchant' element={<Merchant />} /> */}
-          <Route path='/showcase' element={<Showcase />} />
-          <Route path="/projects/:division" element={<DivisionProjectList />} />
-          <Route path="/projects/:division/:id" element={<ProjectDetail />} />
+          <Route path='/merchant' element={<Merchant />} />
+          <Route path='/showcase' element={<LearningPath />} />
+          <Route path="/showcase/projects/:division" element={<DivisionProjectList />} />
+          <Route path="/showcase/projects/:division/:id" element={<ProjectDetail />} />
         </Route>
 
       </Routes>

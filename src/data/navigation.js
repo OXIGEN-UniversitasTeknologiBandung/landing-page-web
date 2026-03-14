@@ -10,19 +10,3 @@ export const logoConfig = {
     alt: "oxigen-Logo"
 };
 
-export const footerContent = {
-    description: "Official UKM Oxigen - Wadah inovasi software, hardware, dan game untuk menciptakan solusi masa depan.",
-    contacts: [
-        {
-            label: "Contact Person 1",
-            name: "Kak Andrian",
-            number: "+62 812-3456-7890"
-        },
-        {
-            label: "Contact Person 2",
-            name: "Kak Purwa",
-            number: "+62 898-7654-3210"
-        }
-    ],
-    copyright: "Copyright © 2026 Oxigen. All Rights Reserved."
-};

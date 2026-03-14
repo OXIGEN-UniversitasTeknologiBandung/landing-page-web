@@ -1,5 +1,5 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import structureData from '../../../data/structure.json';
 import CharacterCard from '../../../components/Cards/CharacterCard';
@@ -7,14 +7,29 @@ import CharacterCard from '../../../components/Cards/CharacterCard';
 const SquadDetail = () => {
   const { divisionId } = useParams();
 
+  const { hash } = useLocation();
+
   const division = structureData.divisions.find(d => d.id === divisionId);
 
   if (!division) {
     return <div className="min-h-screen bg-oxigen-dark flex items-center justify-center text-white">Divisi tidak ditemukan.</div>;
   }
 
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.getElementById(hash.replace('#', ''));
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [hash]);
   return (
-    <div className="min-h-screen bg-oxigen-dark pt-32 pb-20 px-6">
+    <div className="min-h-screen bg-oxigen-dark pt-32 pb-20 px-6" id="squadDetail">
 
       {/* Background Decoration */}
       <div className="fixed inset-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-oxigen-light/30 via-oxigen-dark to-black"></div>
@@ -41,7 +56,7 @@ const SquadDetail = () => {
         </div>
 
         {/* Member Grid */}
-       
+
         {division.members && division.members.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {division.members.map((member) => (

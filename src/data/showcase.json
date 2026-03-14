@@ -1,0 +1,36 @@
+{
+  "stats": [
+    { "label": "Proyek Dibuat", "value": 9, "suffix": "+" },
+    { "label": "Anggota Tim", "value": 50, "suffix": "+" },
+    { "label": "Divisi Aktif", "value": 3, "suffix": "" }
+  ],
+  "typingWords": [
+    "Inovasi Nyata.",
+    "Karya Terbaik.",
+    "Dedikasi Penuh.",
+    "Angkatan 24."
+  ],
+  "divisions": [
+    {
+      "id": "hardware",
+      "label": "Hardware",
+      "badge": "#",
+      "desc": "Inovasi perangkat keras dan solusi IoT dari angkatan 24.",
+      "gradient": "from-orange-500 to-red-600"
+    },
+    {
+      "id": "software",
+      "label": "Software",
+      "badge": "</> ",
+      "desc": "Aplikasi dan solusi digital cerdas karya angkatan 24.",
+      "gradient": "from-blue-500 to-indigo-600"
+    },
+    {
+      "id": "game",
+      "label": "Game",
+      "badge": "🎮",
+      "desc": "Pengalaman interaktif dan game seru buatan angkatan 24.",
+      "gradient": "from-purple-500 to-pink-600"
+    }
+  ]
+}

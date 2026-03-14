@@ -99,8 +99,8 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/about">About</NavLink>
-              <NavLink to="/merchant">Merchant</NavLink>
-              <NavLink to="/showcase">Showcase</NavLink>
+              {/* <NavLink to="/merchant">Merchant</NavLink> */}
+              <NavLink to="/showcase">Learning-path</NavLink>
             </div>
           </div>
 
@@ -145,8 +145,8 @@ const Navbar = () => {
         <div className="px-4 pt-2 pb-6 space-y-2 bg-oxigen-dark/95 backdrop-blur-xl border-t border-white/10 shadow-2xl">
           <MobileNavLink to="/" onClick={() => setIsOpen(false)}>Home</MobileNavLink>
           <MobileNavLink to="/about" onClick={() => setIsOpen(false)}>About</MobileNavLink>
-          <MobileNavLink to="/showcase" onClick={() => setIsOpen(false)}>Showcase</MobileNavLink>
-          <MobileNavLink to="/merchant" onClick={() => setIsOpen(false)}>Merchant</MobileNavLink>
+          <MobileNavLink to="/showcase" onClick={() => setIsOpen(false)}>Learning-path</MobileNavLink>
+          {/* <MobileNavLink to="/merchant" onClick={() => setIsOpen(false)}>Merchant</MobileNavLink> */}
 
           <div className="pt-4 mt-4 border-t border-white/10">
             <Link
